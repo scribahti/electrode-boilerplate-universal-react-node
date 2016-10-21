@@ -45,6 +45,7 @@ export class Home extends React.Component {
           </li>
           <li><a href="/ssrcachingsimpletype">SSR Caching Simple Type Example</a></li>
           <li><a href="/ssrcachingtemplatetype">SSR Caching Template Type Example</a></li>
+          <li><a href="/fuel-savings">Demo App from react-slingshot</a></li>
         </ul>
         <p>{this.props.data}</p>
       </div>
