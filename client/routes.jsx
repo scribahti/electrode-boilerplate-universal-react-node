@@ -1,10 +1,10 @@
 import React from "react";
 import {Route, IndexRoute} from "react-router";
-import Home from "./components/home";
-import SSRCachingTemplateType from "./components/ssr-caching-template-type";
-import SSRCachingSimpleType from "./components/ssr-caching-simple-type";
-import {CSRF} from "./components/csrf";
-import AboveFold from "./components/above-the-fold";
+import Home from "./home/component";
+import SSRCachingTemplateType from "./templateCache/container";
+import SSRCachingSimpleType from "./simpleCache/container";
+import {CSRF} from "./csrf/component";
+import AboveFold from "./atf/component";
 import FuelSavingsPage  from './fuelsavings/container';
 
 export const routes = (

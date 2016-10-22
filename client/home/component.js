@@ -1,6 +1,6 @@
 import React, {PropTypes} from "react";
 import {connect} from "react-redux";
-import electrodeLogo from "../images/electrode.svg";
+import electrodeLogo from "./electrode.svg";
 
 class HomeWrapper extends React.Component {
   render() {

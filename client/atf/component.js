@@ -1,8 +1,8 @@
 import React, {PropTypes} from "react";
 import {AboveTheFoldOnlyServerRender} from "above-the-fold-only-server-render";
 import {connect} from "react-redux";
-import smileyPng from "../images/718smiley.png";
-import peaceSmileyPng from "../images/peace-smiley.png";
+import smileyPng from "./images/718smiley.png";
+import peaceSmileyPng from "./images/peace-smiley.png";
 
 /* eslint-disable max-len */
 
